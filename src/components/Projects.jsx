@@ -9,9 +9,9 @@ const Projects = () => {
     return (
         <div className="pt-36 pb-36" id='projects'>
             <center>
-                <h1 className="text-7xl dark:text-white">Projects</h1>
+                <h1 className="lg:text-7xl text-4xl dark:text-white">Projects</h1>
             </center>
-            <div className='pt-20 grid grid-flow-row grid-cols-3 gap-24'>
+            <div className='lg:pt-20 pt-10 grid lg:grid-flow-row lg:grid-cols-3 gap-24'>
                 <ReactCardFlip isFlipped={flipMasterCode}
                     flipDirection="vertical" >
 

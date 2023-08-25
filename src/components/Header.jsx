@@ -5,9 +5,9 @@ const Header = () => {
 
     return (
         <header className="pt-4 flex justify-center items-center sticky z-10 top-0 dark:bg-slate-700 shadow-sm shadow-black pr-10 pl-10 h-min w-full bg-slate-200 dark:text-white">
-            <div className="flex flex-row gap-36 text-lg font-semibold">
+            <div className="flex flex-row lg:gap-36 lg:text-lg gap-10 font-semibold">
 
-                <Link to="hero" spy={true} smooth={true} offset={0} duration={500} className="hover:cursor-pointer mr-96">
+                <Link to="hero" spy={true} smooth={true} offset={0} duration={500} className="hover:cursor-pointer lg:block hidden mr-96">
                     <img src="./logo.png" />
                 </Link>
 

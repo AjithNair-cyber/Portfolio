@@ -46,7 +46,7 @@ const Contact = () => {
 
                 {/* <!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
                 <div className="mx-6 py-10 text-center md:text-left">
-                    <div className="grid-1 grid gap-96 md:grid-cols-2 lg:grid-cols-2">
+                    <div className="grid-1 grid lg:gap-96 md:grid-cols-2 lg:grid-cols-2">
                         {/* <!-- Tailwind Elements section --> */}
                         <div className="">
                             <h6

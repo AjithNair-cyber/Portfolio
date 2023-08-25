@@ -3,7 +3,7 @@ const Work = () => {
     return (
         <div id="work">
             <center>
-                <h1 className="text-7xl dark:text-white pb-24">Work History</h1>
+                <h1 className="lg:text-7xl text-4xl dark:text-white pb-24">Work History</h1>
                 <div className="flex flex-col font-semibold text-xl w-fit p-6 dark:text-white rounded-md bg-slate-200 dark:bg-slate-700 justify-center items-center ">
                     <img src="./gt.svg" width={300} />
                     <p className="p-2">Senior Associate (Full Stack/ Blockchain Developer)</p>
