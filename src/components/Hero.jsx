@@ -2,7 +2,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
-    <div id="hero" className='lg:p-4 pl-8 flex lg:flex-row flex-col lg:gap-48 gap-12 dark:text-white'>
+    <div id="hero" className='lg:p-4 pl-8 flex lg:flex-row flex-col-reverse lg:gap-48 gap-12 dark:text-white'>
       <div className='flex-1'>
         <h1 className=' lg:text-8xl text-4xl lg:m-4 m-3'>
           Hi,
